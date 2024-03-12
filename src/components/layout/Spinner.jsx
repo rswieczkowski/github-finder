@@ -1,4 +1,4 @@
-import Spinner from './assets/spinner.gif';
+import spinner from './assets/spinner.gif';
 
 function Spinner() {
   return (
@@ -6,7 +6,7 @@ function Spinner() {
       <img
         width={180}
         className='text-center mx-auto'
-        src={Spinner}
+        src={spinner}
         alt='Loading...'
       />
     </div>
